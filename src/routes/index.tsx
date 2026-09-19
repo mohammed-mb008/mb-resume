@@ -325,6 +325,8 @@ function Portfolio() {
               ))}
             </div>
             <div className="future-project">
+              <div className="future-project-image"><img src={classroomImage} alt="IoT & AI Powered Intelligent Classroom Management System" loading="lazy" width={1408} height={912} /></div>
+              <div className="future-project-content">
               <div className="future-project-head"><span>Next in development</span><h3>IoT & AI Powered Intelligent Classroom Management System</h3><p className="future-project-summary">Developing an IoT and AI-powered intelligent classroom management system to automate attendance, classroom monitoring, and energy management.</p></div>
               <div className="future-project-body">
                 <ul>
