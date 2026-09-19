@@ -182,7 +182,7 @@ a { color: inherit; text-decoration: none; }
 .future-project-image { width: 100%; max-width: 380px; flex-shrink: 0; border-radius: 14px; overflow: hidden; }
 .future-project-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .future-project-content { display: flex; flex-direction: column; }
-.future-project h3 { margin: .4rem 0 0; color: var(--foreground); font-family: var(--font-display); }
+.future-project-head span { color: var(--primary); font-size: .65rem; text-transform: uppercase; letter-spacing: .16em; }
 .future-project-summary { margin: .5rem 0 0; color: var(--muted-foreground); max-width: 60ch; }
 .future-project-body { margin-top: 1.2rem; }
 .future-project-body ul { list-style: none; padding: 0; margin: 0 0 1.2rem; display: grid; gap: .6rem; }
