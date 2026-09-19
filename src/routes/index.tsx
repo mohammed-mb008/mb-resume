@@ -32,6 +32,7 @@ import {
 import aiIdentityImage from "@/assets/project-ai-identity.jpg";
 import robotImage from "@/assets/project-line-robot.jpg";
 import expenseImage from "@/assets/project-expense-tracker.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const email = "mohammedbilaalbasha2005@gmail.com";
 const phone = "+919944758261";
