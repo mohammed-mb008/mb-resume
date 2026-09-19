@@ -177,8 +177,16 @@ a { color: inherit; text-decoration: none; }
 .project-content h3 { margin: .7rem 0 1.2rem; font-family: var(--font-display); font-size: clamp(1.65rem, 3.1vw, 3rem); line-height: 1.08; letter-spacing: -.035em; }
 .project-content > p:not(.project-category) { color: var(--muted-foreground); line-height: 1.75; }
 .project-links { margin-top: 2rem; }.project-links a { display: inline-flex; align-items: center; gap: .5rem; font-size: .8rem; color: var(--primary); }
-.future-project { margin-top: 1rem; display: flex; justify-content: space-between; align-items: center; padding: 2rem; border: 1px dashed var(--border); color: var(--muted-foreground); }
-.future-project span { color: var(--primary); font-size: .65rem; text-transform: uppercase; }.future-project h3 { margin: .4rem 0 0; color: var(--foreground); font-family: var(--font-display); }
+.future-project { margin-top: 1rem; display: flex; justify-content: space-between; align-items: stretch; gap: 1.5rem; padding: 2rem; border: 1px dashed var(--border); color: var(--muted-foreground); background: var(--surface); }
+.future-project > svg { color: var(--primary); opacity: .7; flex-shrink: 0; align-self: flex-start; }
+.future-project-head span { color: var(--primary); font-size: .65rem; text-transform: uppercase; letter-spacing: .16em; }
+.future-project h3 { margin: .4rem 0 0; color: var(--foreground); font-family: var(--font-display); }
+.future-project-summary { margin: .5rem 0 0; color: var(--muted-foreground); max-width: 60ch; }
+.future-project-body { margin-top: 1.2rem; }
+.future-project-body ul { list-style: none; padding: 0; margin: 0 0 1.2rem; display: grid; gap: .6rem; }
+.future-project-body li { display: flex; gap: .55rem; align-items: flex-start; color: var(--foreground); line-height: 1.5; }
+.future-project-body li svg { color: var(--primary); margin-top: .2rem; flex-shrink: 0; }
+.future-project-body .tag-row { flex-wrap: wrap; }
 .credentials-layout { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(3rem, 8vw, 8rem); }
 .certificate-feature { min-height: 220px; display: flex; align-items: center; gap: 2rem; padding: 2rem; border: 1px solid var(--primary); background: var(--card); box-shadow: var(--shadow-glow); }
 .certificate-mark { width: 110px; aspect-ratio: 1; display: grid; place-items: center; position: relative; border: 1px solid var(--border); color: var(--primary); }.certificate-mark span { position: absolute; bottom: .6rem; font-weight: 800; }
