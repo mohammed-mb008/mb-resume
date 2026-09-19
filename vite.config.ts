@@ -11,4 +11,7 @@ export default defineConfig({
       crawlLinks: false,
     },
   },
+  vite: {
+    base: "/mb-resume/",
+      },
 });
