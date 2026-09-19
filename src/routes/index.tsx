@@ -337,6 +337,7 @@ function Portfolio() {
                 </ul>
                 <div className="tag-row">{["Python", "IoT", "AI / Computer Vision", "Fingerprint Sensor", "Temperature & Humidity Sensors", "Camera", "Cloud Database", "Web Dashboard"].map((tag) => <span key={tag}>{tag}</span>)}</div>
               </div>
+               </div>
               <Cpu size={30} />
             </div>
           </div>
