@@ -324,7 +324,16 @@ function Portfolio() {
               ))}
             </div>
             <div className="future-project">
-              <div><span>Next in development</span><h3>IoT & AI Powered Intelligent Classroom Management System</h3></div>
+              <div className="future-project-head"><span>Next in development</span><h3>IoT & AI Powered Intelligent Classroom Management System</h3><p className="future-project-summary">Developing an IoT and AI-powered intelligent classroom management system to automate attendance, classroom monitoring, and energy management.</p></div>
+              <div className="future-project-body">
+                <ul>
+                  <li><CheckCircle2 size={15} /> Implemented fingerprint-based attendance using a biometric sensor and Python to record and monitor student attendance in real time.</li>
+                  <li><CheckCircle2 size={15} /> Designed a teacher dashboard to display attendance status, class schedules, upcoming periods, and automated notifications.</li>
+                  <li><CheckCircle2 size={15} /> Integrated temperature and humidity sensors to monitor classroom conditions and automatically control lights, fans, and AC based on requirements.</li>
+                  <li><CheckCircle2 size={15} /> Exploring camera-based student counting using AI/Computer Vision to estimate classroom occupancy and improve energy efficiency.</li>
+                </ul>
+                <div className="tag-row">{["Python", "IoT", "AI / Computer Vision", "Fingerprint Sensor", "Temperature & Humidity Sensors", "Camera", "Cloud Database", "Web Dashboard"].map((tag) => <span key={tag}>{tag}</span>)}</div>
+              </div>
               <Cpu size={30} />
             </div>
           </div>
