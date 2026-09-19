@@ -32,6 +32,7 @@ import {
 import aiIdentityImage from "@/assets/project-ai-identity.jpg";
 import robotImage from "@/assets/project-line-robot.jpg";
 import expenseImage from "@/assets/project-expense-tracker.jpg";
+import classroomImage from "@/assets/project-classroom.jpg";
 import profilePhoto from "@/assets/profile-photo.png";
 
 const email = "mohammedbilaalbasha2005@gmail.com";
@@ -324,6 +325,8 @@ function Portfolio() {
               ))}
             </div>
             <div className="future-project">
+              <div className="future-project-image"><img src={classroomImage} alt="IoT & AI Powered Intelligent Classroom Management System" loading="lazy" width={1408} height={912} /></div>
+              <div className="future-project-content">
               <div className="future-project-head"><span>Next in development</span><h3>IoT & AI Powered Intelligent Classroom Management System</h3><p className="future-project-summary">Developing an IoT and AI-powered intelligent classroom management system to automate attendance, classroom monitoring, and energy management.</p></div>
               <div className="future-project-body">
                 <ul>
@@ -334,6 +337,7 @@ function Portfolio() {
                 </ul>
                 <div className="tag-row">{["Python", "IoT", "AI / Computer Vision", "Fingerprint Sensor", "Temperature & Humidity Sensors", "Camera", "Cloud Database", "Web Dashboard"].map((tag) => <span key={tag}>{tag}</span>)}</div>
               </div>
+               </div>
               <Cpu size={30} />
             </div>
           </div>
