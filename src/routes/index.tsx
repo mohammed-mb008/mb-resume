@@ -207,9 +207,9 @@ function Portfolio() {
             <SocialLinks />
           </div>
           <div className="hero-visual reveal delay-1">
-            <div className="profile-orbit" aria-label="Profile placeholder for Mohammed Bilaal Basha A">
+            <div className="profile-orbit" aria-label="Profile photo of Mohammed Bilaal Basha A">
               <div className="orbit-ring" />
-              <div className="profile-monogram"><span>MB</span><small>MECHATRONICS</small></div>
+              <div className="profile-photo"><img src={profilePhoto} alt="Mohammed Bilaal Basha A" width={800} height={800} loading="eager" /></div>
               <span className="orbit-dot dot-one" /><span className="orbit-dot dot-two" />
             </div>
             <div className="hero-metric metric-one"><Cpu size={17} /><span>Focus</span><strong>Intelligent Systems</strong></div>
