@@ -183,7 +183,7 @@ function Portfolio() {
         <a className="brand" href="#home" aria-label="Mohammed Bilaal Basha home"><span>MB</span><i /></a>
         <nav className={menuOpen ? "nav-links open" : "nav-links"} aria-label="Primary navigation">
           {navItems.map((item) => <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMenuOpen(false)}>{item}</a>)}
-          <a className="nav-resume" href="/mb-resume/mohammed-bilaal-basha-resume.pdf" target="_blank" rel="noreferrer"><FileText size={15} />View Resume</a>
+          <a className="nav-resume" href="./mohammed-bilaal-basha-resume.pdf" target="_blank" rel="noreferrer"><FileText size={15} />View Resume</a>
         </nav>
         <button className="menu-button" type="button" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen}>
           {menuOpen ? <X /> : <Menu />}
@@ -202,7 +202,7 @@ function Portfolio() {
             <p className="hero-intro">A final-year Mechatronics Engineering student passionate about combining engineering, programming, artificial intelligence, IoT, and embedded technologies to develop practical and innovative solutions.</p>
             <div className="hero-actions">
               <a className="button primary" href="#projects">View my projects <ArrowDown size={17} /></a>
-              <a className="button secondary" href="/mb-resume/mohammed-bilaal-basha-resume.pdf" download><Download size={17} /> Download resume</a>
+              <a className="button secondary" href="./mohammed-bilaal-basha-resume.pdf" download><Download size={17} /> Download resume</a>
               <a className="button ghost" href="#contact">Contact me <ArrowUpRight size={17} /></a>
             </div>
             <SocialLinks />
@@ -367,7 +367,7 @@ function Portfolio() {
         <section id="resume" className="resume-band">
           <div className="section-inner resume-inner">
             <div><p className="section-kicker"><span />Resume</p><h2>Want to know more<br />about my experience?</h2><p>Explore my complete resume to learn more about my education, technical skills, internships, projects, and certifications.</p></div>
-            <div className="resume-actions"><FileText size={36} /><a className="button primary" href="/mb-resume/mohammed-bilaal-basha-resume.pdf" target="_blank" rel="noreferrer">View resume <ExternalLink size={17} /></a><a className="button secondary" href="//mb-resume/mohammed-bilaal-basha-resume.pdf" download><Download size={17} /> Download PDF</a></div>
+            <div className="resume-actions"><FileText size={36} /><a className="button primary" href="./mohammed-bilaal-basha-resume.pdf" target="_blank" rel="noreferrer">View resume <ExternalLink size={17} /></a><a className="button secondary" href="./mohammed-bilaal-basha-resume.pdf" download><Download size={17} /> Download PDF</a></div>
           </div>
         </section>
 
