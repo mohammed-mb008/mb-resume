@@ -56,8 +56,7 @@ const experiences = [
   date: "June 2026",
   mode: "On-site",
   description:
-    "Gained hands-on experience with STM32 microcontrollers, Embedded C, STM32CubeIDE, GPIO, timers, PWM, UART, motor control, peripheral interfacing, and hardware debugging.",
-    "Developed practical knowledge of DC and stepper motor control using driver modules, applying embedded concepts to industrial automation and control applications through programming, testing, and debugging.",
+    "Gained hands-on experience with STM32 microcontrollers, Embedded C, STM32CubeIDE, GPIO, timers, PWM, UART, motor control, peripheral interfacing, and hardware debugging.Developed practical knowledge of DC and stepper motor control using driver modules, applying embedded concepts to industrial automation and control applications through programming, testing, and debugging.",
 },
   {
     role: "AI Text Summarization Intern",
