@@ -50,13 +50,14 @@ const skills = [
 ];
 
 const experiences = [
-  {
+{
   role: "Embedded Systems Intern",
-  company: "Common Rocket",
+  company: "CommonRocket",
   date: "June 2026",
   mode: "On-site",
+  tags: ["Embedded Systems", "STM32", "Embedded C"],
   description:
-    "Gained hands-on experience with STM32 microcontrollers, Embedded C, STM32CubeIDE, GPIO, timers, PWM, UART, motor control, peripheral interfacing, and hardware debugging.Developed practical knowledge of DC and stepper motor control using driver modules, applying embedded concepts to industrial automation and control applications through programming, testing, and debugging.",
+    "Gained hands-on experience with STM32 microcontrollers, Embedded C, STM32CubeIDE, GPIO, timers, PWM, UART, motor control, peripheral interfacing, and hardware debugging. Developed practical knowledge of DC and stepper motor control using driver modules, applying embedded concepts to industrial automation and control applications through programming, testing, and debugging.",
 },
   {
     role: "AI Text Summarization Intern",
