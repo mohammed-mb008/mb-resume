@@ -226,7 +226,7 @@ function Portfolio() {
             </div>
             <div className="hero-metric metric-one"><Cpu size={17} /><span>Focus</span><strong>Intelligent Systems</strong></div>
             <div className="hero-metric metric-two"><GraduationCap size={17} /><span>CGPA</span><strong>8.40 / 10</strong></div>
-            <div className="coordinate">11.0168° N<br />76.9558° E</div>
+            {/* <div className="coordinate">11.0168° N<br />76.9558° E</div> */}
           </div>
           <a href="#about" className="scroll-cue" aria-label="Scroll to about"><span>Scroll to explore</span><ArrowDown size={16} /></a>
         </section>
@@ -258,14 +258,44 @@ function Portfolio() {
         <section id="education" className="section">
           <div className="section-inner narrow">
             <SectionHeading kicker="02 / Education" title="Academic foundation." copy="Building a multidisciplinary base across mechanics, electronics, controls, and computation." />
-            <div className="education-timeline">
-              <div className="timeline-track"><span /></div>
-              <article className="education-entry">
-                <div className="entry-year">2024 — 2027</div>
-                <div><p className="entry-type">Undergraduate degree · In progress</p><h3>B.E. Mechatronics Engineering</h3><h4>SNS College of Technology</h4><p>CGPA <strong>8.40</strong> up to VI Semester</p></div>
-              </article>
-              <div className="future-entry"><span>+</span><p>Future education entry</p></div>
-            </div>
+           <div className="education-timeline">
+  <div className="timeline-track"><span /></div>
+
+  <article className="education-entry">
+    <div className="entry-year">2024 — 2027</div>
+    <div>
+      <p className="entry-type">Undergraduate degree · In progress</p>
+      <h3>B.E. Mechatronics Engineering</h3>
+      <h4>SNS College of Technology</h4>
+      <p>CGPA <strong>8.40</strong> up to VI Semester</p>
+    </div>
+  </article>
+
+  <article className="education-entry">
+    <div className="entry-year">2021 — 2023</div>
+    <div>
+      <p className="entry-type">Higher Secondary · HSC</p>
+      <h3>Higher Secondary Certificate</h3>
+      <h4>Green Valley Mat.Hr.Sec School</h4>
+      <p>Hosur · Score <strong>80%</strong></p>
+    </div>
+  </article>
+
+  <article className="education-entry">
+    <div className="entry-year">2020 — 2021</div>
+    <div>
+      <p className="entry-type">Secondary School · SSLC</p>
+      <h3>Secondary School Leaving Certificate</h3>
+      <h4>St. Joseph Mat.Hr.Sec School</h4>
+      <p>Hosur · Score <strong>80%</strong></p>
+    </div>
+  </article>
+
+  <div className="future-entry">
+    <span>+</span>
+    <p>Future education entry</p>
+  </div>
+</div>
           </div>
         </section>
 
@@ -391,7 +421,7 @@ function Portfolio() {
                 <a href={`tel:${phone}`}><Phone size={19} /><span>Phone<strong>+91 99447 58261</strong></span><ArrowUpRight size={17} /></a>
                 <a href={linkedin} target="_blank" rel="noreferrer"><Linkedin size={19} /><span>LinkedIn<strong>Mohammed Bilaal Basha A</strong></span><ArrowUpRight size={17} /></a>
                 <a href={github} target="_blank" rel="noreferrer"><Github size={19} /><span>GitHub<strong>mohammed-mb008</strong></span><ArrowUpRight size={17} /></a>
-                <div className="contact-placeholder"><MapPin size={19} /><span>Location<strong>Available on request</strong></span></div>
+                <div className="contact-placeholder"><MapPin size={19} /><span>Location<strong>Hosur, Tamil Nadu, India</strong></span></div>
               </div>
               <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-row"><label>Name<input name="name" required autoComplete="name" placeholder="Your name" /></label><label>Email<input name="email" type="email" required autoComplete="email" placeholder="you@example.com" /></label></div>
