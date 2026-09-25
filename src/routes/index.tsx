@@ -265,8 +265,8 @@ function Portfolio() {
     <div className="entry-year">2024 — 2027</div>
     <div>
       <p className="entry-type">Undergraduate degree · In progress</p>
-      <h3>B.E. Mechatronics Engineering</h3>
-      <h4>SNS College of Technology, Coimbatore</h4>
+      <h3>SNS College of Technology, Coimbatore</h3>
+      <h4>B.E. Mechatronics Engineering</h4>
       <p>CGPA <strong>8.40</strong> up to VI Semester</p>
     </div>
   </article>
