@@ -266,7 +266,7 @@ function Portfolio() {
     <div>
       <p className="entry-type">Undergraduate degree · In progress</p>
       <h3>B.E. Mechatronics Engineering</h3>
-      <h4>SNS College of Technology</h4>
+      <h4>SNS College of Technology, Coimbatore</h4>
       <p>CGPA <strong>8.40</strong> up to VI Semester</p>
     </div>
   </article>
@@ -275,9 +275,8 @@ function Portfolio() {
     <div className="entry-year">2021 — 2023</div>
     <div>
       <p className="entry-type">Higher Secondary · HSC</p>
-      <h3>Higher Secondary Certificate</h3>
-      <h4>Green Valley Mat.Hr.Sec School</h4>
-      <p>Hosur · Score <strong>80%</strong></p>
+      <h3>Green Valley Mat.Hr.Sec School, Hosur</h3>
+      <p>Score <strong>80%</strong></p>
     </div>
   </article>
 
@@ -285,9 +284,8 @@ function Portfolio() {
     <div className="entry-year">2020 — 2021</div>
     <div>
       <p className="entry-type">Secondary School · SSLC</p>
-      <h3>Secondary School Leaving Certificate</h3>
-      <h4>St. Joseph Mat.Hr.Sec School</h4>
-      <p>Hosur · Score <strong>80%</strong></p>
+      <h3>St. Joseph Mat.Hr.Sec School, Hosur</h3>
+      <p>Score <strong>80%</strong></p>
     </div>
   </article>
 
